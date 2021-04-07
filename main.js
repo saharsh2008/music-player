@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progressContainer");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ['Canals', 'Road Trip', 'Thats What I Like', 'Positions', 'Peaches', 'Savage Love', 'Godzilla'];
+const songs = ['Canals', 'Road Trip', 'Thats What I Like', 'Positions', 'Peaches', 'Savage Love', 'Uptown Funk'];
 
 let songIndex = 0;
 
@@ -91,6 +91,9 @@ playBtn.addEventListener('click', () => {
 
 prevBtn.addEventListener('click', prevSong);
 nextBtn.addEventListener('click', nextSong);
+prevBtn.addEventListener('touch', prevSong);
+nextBtn.addEventListener('touch', nextSong);
 audio.addEventListener('timeupdate', updateProgress);
 progressContainer.addEventListener('click', setProgress);
+progressContainer.addEventListener('touch', setProgress);
 audio.addEventListener('ended', continueSong2);
