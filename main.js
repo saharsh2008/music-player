@@ -8,7 +8,7 @@ const progressContainer = document.getElementById("progressContainer");
 const title = document.getElementById("title");
 const cover = document.getElementById("cover");
 
-const songs = ['Canals', 'Road Trip', 'Thats What I Like', 'Positions', 'Peaches', 'Savage Love', 'Uptown Funk'];
+const songs = ['Canals', 'Road Trip', 'Thats What I Like', 'Positions', 'Peaches', 'Savage Love', 'Uptown Funk', 'Godzilla'];
 
 let songIndex = 0;
 
